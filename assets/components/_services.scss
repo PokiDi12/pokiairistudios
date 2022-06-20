@@ -1,0 +1,35 @@
+.services {
+
+    &__content {
+        @include font(800, 32px, #000000);
+        @include margin(74px, 0,97px,0);
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    &__title-title {
+        @include font(700, 16px, #E85353);
+        margin-top: 23px;
+    }
+
+    &__descriptions {
+        @include font(400, 12px, #000000);
+        margin-top: 8px;
+    }
+
+    &__info {
+        width: 206px;
+    }
+    &__slider{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto   ;
+        margin-bottom: 98px;
+        
+    }
+
+    
+}

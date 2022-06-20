@@ -1,0 +1,81 @@
+.team {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    &__box {
+        margin-left: 200px;
+    }
+
+    &__names {
+        @include font(700, 17px, #000000);
+        margin: 0;
+    }
+
+    &__avatar {
+        border-radius: 100%;
+    }
+
+    &__descriptions {
+        @include margin(3px, 0, 0, 0);
+        @include font(400, 14px, rgba(0, 0, 0, 0.68));
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__add {
+        @include margin(50px, 0, 0, 0);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__add-icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__add-descriptions {
+        @include margin(0, 30, 0, 0);
+        display: flex;
+        align-items: center;
+        width: 110px;
+        margin-right: 20px;
+        line-height: 30px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        &--wrapper {
+            @include margin(36px, 0, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        background: #E85353;
+        border-radius: 3px;
+        border: 3px solid #E85353;
+        @include font(500, 13px, #FFFFFF);
+        display: flex;
+        justify-content: center;
+        padding: 2px 9px;
+        cursor: pointer;
+        transition: 0.3s;
+        align-items: center;
+
+        &:hover {
+            background: #FFFFFF;
+            color: #E85353;
+        }
+
+    }
+}

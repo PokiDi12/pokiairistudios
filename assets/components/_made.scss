@@ -1,0 +1,25 @@
+.made {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        @include margin(0, 0, 60px, 0);
+        @include font(800, 40px, #E85353);
+        text-align: center;
+        width: 660px;
+        flex-direction: column;
+    }
+    &__pic{
+        margin-bottom: 263px;
+    }
+
+
+    &__pshka {
+        @include font(400, 16px, #000000);
+        text-align: center;
+    }
+
+}

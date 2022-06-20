@@ -1,0 +1,17 @@
+@mixin font($poki, $pokii, $pokiii) {
+    font-family: 'Montserrat';
+    font-weight: $poki;
+    font-size: $pokii;
+    color: $pokiii;
+}
+
+@mixin margin ($top, $right, $bottom, $left) {
+    margin-top: $top;
+    margin-right: $right ;
+    margin-bottom: $bottom ;
+    margin-left: $left ;
+}
+
+@mixin padding () {
+    
+}
